@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --background-color: #0b2429;
+        --drop-one-color: #f3ac3c;
+        --drop-two-color: #998235;
+        --drop-three-color: #f3ac3c;
+        background: var(--background-color);
+      }
+      div {
+        background: var(--drop-one-color);
+        border-radius: 50%;
+        height: 120px;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(0%, -100%);
+        width: 120px;
+      }
+
+      div::before {
+        background: var(--drop-three-color);
+        border-radius: 50% 0 50% 50%;
+        box-shadow: 60px -60px 0 0 var(--drop-two-color);
+        content: "";
+        height: 120px;
+        position: absolute;
+        transform: translate(-100%, 100%);
+        width: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

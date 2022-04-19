@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --background-color: #6592cf;
+        --outer-circle-color: #243d83;
+        --inner-circle-color: #eeb850;
+        background: var(--background-color);
+      }
+      div {
+        height: 150px;
+        left: 50%;
+        background: var(--outer-circle-color);
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        width: 300px;
+      }
+      div::before {
+        background: var(--inner-circle-color);
+        border-radius: 50%;
+        box-shadow: 0 0 0 50px var(--outer-circle-color),
+          0 0 0 100px var(--background-color);
+        content: "";
+        height: 50px;
+        position: absolute;
+        transform: translate(125px, 50px);
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
