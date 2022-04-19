@@ -1,6 +1,6 @@
 ## Eye of Sauron
 
-![Eye of Sauron](/battle1/eye-of-sauron.png)
+![Eye of Sauron](./eye-of-sauron.png)
 
 ### HTML
 ```HTML
