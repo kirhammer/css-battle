@@ -1,6 +1,6 @@
 ## Matrix
 
-![Matrix](./simply-square.png)
+![Matrix](./matrix.png)
 
 ### HTML
 
