@@ -1,6 +1,8 @@
 # Battle 2
 ## Visibility
 
+![Battle 2](./battle-2.png)
+
 ---
 ### [1. Totally Triangle](./01-totally-triangle/)
 ---

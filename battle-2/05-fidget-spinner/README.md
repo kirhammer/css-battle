@@ -1,6 +1,6 @@
 ## Fidget Spinner
 
-![Fidget Spinner](./fidget-spinner.pngg)
+![Fidget Spinner](./fidget-spinner.png)
 
 ### HTML
 
